@@ -150,6 +150,10 @@ const tiles = [
 ]
 const dest = 'img_out/radar.png'
 
+console.log("Radar-merger started");
+
 combineTiles(tiles, size, size, dest, (err) => {
 	if (err) console.error(err)
+		
+	console.log("Radar exported successfully");
 })
